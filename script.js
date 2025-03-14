@@ -10,4 +10,13 @@ function addTech() {
     contactSection.appendChild(nameInput);
 
 
+
+    const radioInput = document.createElement('input')
+    radioInput.type = 'radio'
+    
+
+
+    contactSection.appendChild(radioInput)
+
+
 }
